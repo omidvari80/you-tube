@@ -1,0 +1,14 @@
+{
+  "name": "youtube",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass --watch sass/index.scss css/index.css"
+  },
+  "author": "fatemeh",
+  "license": "ISC",
+  "dependencies": {
+    "sass": "^1.49.0"
+  }
+}
