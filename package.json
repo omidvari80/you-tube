@@ -1,7 +1,6 @@
 {
   "name": "youtube",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "sass": "sass --watch sass/index.scss css/index.css"
@@ -10,5 +9,15 @@
   "license": "ISC",
   "dependencies": {
     "sass": "^1.49.0"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/omidvari80/you-tube.git"
+  },
+  "bugs": {
+    "url": "https://github.com/omidvari80/you-tube/issues"
+  },
+  "homepage": "https://github.com/omidvari80/you-tube#readme",
+  "description": ""
 }
