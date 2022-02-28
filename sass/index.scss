@@ -177,7 +177,36 @@ text-align: center;
 }
 
 
+form.example input[type=text] {
+  padding: 10px;
+  font-size: 17px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 80%;
+  background: #fff;
+}
 
+form.example button {
+  float: left;
+  width: 20%;
+  padding: 10px;
+  background-color: #eee;
+  color: #000;
+  font-size: 17px;
+  border: 1px solid #ccc;
+  border-left: none;
+  cursor: pointer;
+
+
+&:hover {
+  background: #ccc;
+}
+}
+form.example::after {
+  content: "";
+  clear: both;
+  display: table;
+}
 
 /*sidebar*/
 
